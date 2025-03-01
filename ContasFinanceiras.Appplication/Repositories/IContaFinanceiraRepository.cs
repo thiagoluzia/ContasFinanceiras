@@ -2,14 +2,9 @@
 
 namespace ContasFinanceiras.Appplication.Repositories
 {
-    public interface IContaFinanceiraRepository
+    public interface IContaFinanceiraRepository : IRepository<ContaFinanceira>
     {
-        Task<ContaFinanceira?> ObterPorIdAsync(Guid id);
-        Task<IEnumerable<ContaFinanceira>> ObterTodasAsync();
         Task<IEnumerable<ContaFinanceira>> ObterPorVencimentoAsync(DateTime data);
         Task<IEnumerable<ContaFinanceira>> ObterPendentesAsync();
-        Task AdicionarAsync(ContaFinanceira contaFinanceira);
-        Task AtualizarAsync(ContaFinanceira contaFinanceira);
-        Task RemoverAsync(Guid id);
     }
 }

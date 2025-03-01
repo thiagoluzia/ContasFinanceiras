@@ -2,12 +2,7 @@
 
 namespace ContasFinanceiras.Appplication.Repositories
 {
-    public interface ICarteiraRepository
+    public interface ICarteiraRepository : IRepository<Carteira>
     {
-        Task<Carteira?> ObterPorIdAsync(Guid id);
-        Task<IEnumerable<Carteira>> ObterTodasAsync();
-        Task AdicionarAsync(Carteira carteira);
-        Task AtualizarAsync(Carteira carteira);
-        Task RemoverAsync(Guid id);
     }
 }

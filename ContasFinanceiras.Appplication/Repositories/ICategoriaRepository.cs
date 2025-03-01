@@ -2,12 +2,7 @@
 
 namespace ContasFinanceiras.Appplication.Repositories
 {
-    public interface ICategoriaRepository
+    public interface ICategoriaRepository : IRepository<Categoria>
     {
-        Task<Categoria?> ObterPorIdAsync(Guid id);
-        Task<IEnumerable<Categoria>> ObterTodasAsync();
-        Task AdicionarAsync(Categoria categoria);
-        Task AtualizarAsync(Categoria categoria);
-        Task RemoverAsync(Guid id);
     }
 }

@@ -2,11 +2,7 @@
 
 namespace ContasFinanceiras.Appplication.Repositories
 {
-    public interface IAnexoRepository
+    public interface IAnexoRepository : IRepository<Anexo>
     {
-        Task<Anexo?> ObterPorIdAsync(Guid id);
-        Task<IEnumerable<Anexo>> ObterPorContaIdAsync(Guid contaFinanceiraId);
-        Task AdicionarAsync(Anexo anexo);
-        Task RemoverAsync(Guid id);
     }
 }
