@@ -1,4 +1,8 @@
 
+using ContasFinanceiras.Appplication.Module;
+using ContasFinanceiras.Infrastructure.Module;
+
+
 namespace ContasFinanceiras.API
 {
     public class Program
@@ -6,6 +10,12 @@ namespace ContasFinanceiras.API
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            // Registrar módulos de injeção de dependências
+            builder.Services.AddPersistenceModule(builder.Configuration);
+            builder.Services.AddApplicationModule();
+            builder.Services.AddInfrastructureModule();
+
 
             // Add services to the container.
 
