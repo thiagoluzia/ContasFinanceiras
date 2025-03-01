@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContasFinanceiras.API", "ContasFinanceiras.API\ContasFinanceiras.API.csproj", "{C65016B4-06B3-4195-80CD-1E4264A85D07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4642F3B3-E15E-4C89-A554-4AA04113F47D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CA873CA3-F60F-4FB4-900D-15EBCECB633E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{468194B4-E10B-44BD-A2FA-CB0D4CDE4602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContasFinanceiras.Appplication", "ContasFinanceiras.Appplication\ContasFinanceiras.Appplication.csproj", "{6EDC33F4-4F28-402B-B7A3-D0BCEE9DF732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContasFinanceiras.Domain", "ContasFinanceiras.Domain\ContasFinanceiras.Domain.csproj", "{F641C4D2-E8B0-491B-9043-86C916F461FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContasFinanceiras.Infrastructure", "ContasFinanceiras.Infrastructure\ContasFinanceiras.Infrastructure.csproj", "{CCF46C61-BDE9-444D-BCB9-8A2594B3E838}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C65016B4-06B3-4195-80CD-1E4264A85D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65016B4-06B3-4195-80CD-1E4264A85D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65016B4-06B3-4195-80CD-1E4264A85D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65016B4-06B3-4195-80CD-1E4264A85D07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EDC33F4-4F28-402B-B7A3-D0BCEE9DF732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EDC33F4-4F28-402B-B7A3-D0BCEE9DF732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EDC33F4-4F28-402B-B7A3-D0BCEE9DF732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EDC33F4-4F28-402B-B7A3-D0BCEE9DF732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F641C4D2-E8B0-491B-9043-86C916F461FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F641C4D2-E8B0-491B-9043-86C916F461FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F641C4D2-E8B0-491B-9043-86C916F461FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F641C4D2-E8B0-491B-9043-86C916F461FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF46C61-BDE9-444D-BCB9-8A2594B3E838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF46C61-BDE9-444D-BCB9-8A2594B3E838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF46C61-BDE9-444D-BCB9-8A2594B3E838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF46C61-BDE9-444D-BCB9-8A2594B3E838}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C65016B4-06B3-4195-80CD-1E4264A85D07} = {4642F3B3-E15E-4C89-A554-4AA04113F47D}
+		{6EDC33F4-4F28-402B-B7A3-D0BCEE9DF732} = {4642F3B3-E15E-4C89-A554-4AA04113F47D}
+		{F641C4D2-E8B0-491B-9043-86C916F461FB} = {4642F3B3-E15E-4C89-A554-4AA04113F47D}
+		{CCF46C61-BDE9-444D-BCB9-8A2594B3E838} = {4642F3B3-E15E-4C89-A554-4AA04113F47D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {463E8987-FE6C-47BF-93E6-7B5DFAA43C88}
+	EndGlobalSection
+EndGlobal
